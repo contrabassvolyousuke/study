@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%!important; }
+
+    html body {
+        overflow-x: hidden !important;
+        font-size: 1.6rem;
+        /*1remは16pxなので、1.6remとすると25.6pxになるので62.5をbodyでしないといけない*/
+        /*remはroot要素（html）を基準に計算、spでは推奨されている*/
+        line-height: 1.6;
+        font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+
+
+*, *::before, *::after {
+    box-sizing: border-box; }
+    img {
+    vertical-align: bottom; /*不思議な隙間を防ぐ*/}
+        img[src$=".svg"] {/*後方一致*/
+            min-height: 100%; }
+        /*^=は前方一致、*=部分一致*/
+    a{
+        text-decoration: none;
+        color:black;
+    }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js + GSAP ScrollTrigger</title>
+    <style>
+        body {
+            margin: 0;
+            height: 200vh; /* スクロールを有効化するために必要 */
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <!-- スクリプト -->
+    <script src="testscript.js" defer></script>
+</body>
+</html>
